@@ -1,0 +1,22 @@
+HƯỚNG DẪN ĐẨY LÊN GITHUB
+
+1. Đăng nhập GitHub và tạo repository mới.
+   Tên gợi ý: credit-card-fraud-detection
+
+2. Không chọn tạo sẵn README, .gitignore hoặc License vì thư mục này đã có.
+
+3. Mở Terminal/Command Prompt tại thư mục credit-card-fraud-detection và chạy:
+
+git init
+git add .
+git commit -m "Initial commit: credit card fraud detection project"
+git branch -M main
+git remote add origin https://github.com/TEN_GITHUB/credit-card-fraud-detection.git
+git push -u origin main
+
+4. Thay TEN_GITHUB bằng tên tài khoản GitHub của bạn.
+
+LƯU Ý AN TOÀN:
+- Không gửi mật khẩu hoặc Personal Access Token cho người khác.
+- Khi GitHub yêu cầu xác thực, đăng nhập bằng trình duyệt, GitHub Desktop,
+  hoặc dùng token trực tiếp trên thiết bị cá nhân.
